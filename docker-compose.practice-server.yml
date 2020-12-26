@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  csgo:
+    env_file:
+      - practiceServer.env
+    ports:
+      - 27015:27015

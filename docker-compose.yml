@@ -1,0 +1,7 @@
+version: "3.3"
+services: 
+  csgo:
+    build: .
+    env_file:
+      - baseEnvFile.env
+    restart: always
